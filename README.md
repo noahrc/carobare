@@ -1,4 +1,4 @@
 carobare
 ========
 
-A barebones jQuery plugin for image carousels using data-attributes
+A barebones carousel jQuery plugin for using data-attributes
