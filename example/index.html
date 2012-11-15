@@ -24,7 +24,7 @@
 			<h3>Example One</h3>
 			
 			<figure id="carousel-1" class="figure carousel" data-carobare-width="320" data-carobare-height="255" data-carobare-url="images/" data-carobare-slides="example1.jpg example2.jpg example3.jpg" data-carobare-interval="2000" >
-				<img src="images/example1.jpg" alt="Sharing insights" />
+				<img src="images/example1.jpg" class="active" alt="Sharing insights" />
 			</figure>
 
 			<p>This example loads all of its options from data attributes in the HTML. A default image is used, which will appear if javascript is disabled. </p>
@@ -38,6 +38,7 @@
 			<h3>Example Two</h3>
 
 			<figure id="carousel-2" class="figure carousel" >	
+				<img src="images/example1.jpg" class="active" alt="Sharing insights" />
 			</figure>
 			<p>This example loads all of its options from javascript.</p>
 		</section>
@@ -51,7 +52,8 @@
 <script>
 	$(document).ready(function(){
 		$('#carousel-1').carobare();
-		$('#carousel-2').carobare({
+		$('#carousel-2').carobare(
+		{
 			'interval'	: 3000,
 			'width'		: 320,
 			'height'	: 255,
