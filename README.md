@@ -25,7 +25,7 @@ Then initialize the plugin like this:
 
 ### Javascript option
 
-Specify options in the carobare funciton like this:
+Specify options in the carobare function like this:
 	
 	$('#carousel-2').carobare(
 	{
